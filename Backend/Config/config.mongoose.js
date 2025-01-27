@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
 
-mongoose.connect ('mongodb://127.0.0.1:27017/movies_db')
-    .then (() => {
-        console.log("Conection succesfull to 'movies_db' database")
-    })
-    .catch((error) => {
-        console.log(`There seems to be an error: ${error}`)
-    })
+// Conexión a MongoDB
+mongoose
+  .connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log('Conexión a MongoDB exitosa'))
+  .catch((error) => console.error('Error al conectar a MongoDB:', error));
