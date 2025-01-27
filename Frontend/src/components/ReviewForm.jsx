@@ -50,7 +50,7 @@ const ReviewForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const API_URL = "http://localhost:8080/review/create";
+        const API_URL = "https://moldy-tomatoes.onrender.com/review/create";
 
         try {
             const response = await axios.post(API_URL, {

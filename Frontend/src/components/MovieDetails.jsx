@@ -12,7 +12,7 @@ const MovieDetails = () => {
     useEffect(() => {
         const fetchReviews = async () => {
             try {
-                const response = await axios.get(`http://localhost:8080/reviews/${_id}`);
+                const response = await axios.get(`https://moldy-tomatoes.onrender.com/reviews/${_id}`);
                 setReviews(response.data.reviews);
             } catch (err) {
                 console.error("Error fetching reviews:", err);
