@@ -1,0 +1,83 @@
+
+.about-container {
+    max-width: 800px;
+    margin: 50px auto; /* Center the content */
+    padding: 2rem;
+    background-color: #f6f3f0; /* Light background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    font-family: Arial, sans-serif; /* Clean font */
+    color: #333; /* Neutral text color */
+    line-height: 1.6; /* Comfortable line spacing */
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color: rgb(93, 19, 19); /* Darker heading color */
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-container h2 {
+    font-size: 1.8rem;
+    color: rgb(93, 19, 19); /* Secondary heading color */
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgb(175, 45, 45); /* Underline style */
+    padding-bottom: 0.3rem;
+  }
+  
+  .about-container p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-container ul {
+    list-style: disc;
+    padding-left: 1.5rem; /* Space for bullets */
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-container li {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  .about-container a {
+    color: #3498db; /* Blue links */
+    text-decoration: none;
+  }
+  
+  .about-container a:hover {
+    text-decoration: underline;
+    color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .about-container .btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .about-container .btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  .offer-list li{
+    list-style: none;
+  }
+  .logo-div{
+    display: flex;
+    justify-content: center;
+  }
+  .moldy-logo-about{
+    height: 150px;
+  }
+  

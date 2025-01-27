@@ -1,0 +1,150 @@
+.movie-details-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f6f3f0;
+    color: #474343;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .movie-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .movie-information-bar {
+    text-align:right;
+    font-family: Arial, sans-serif;
+  }
+  
+  .movie-information-bar h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgb(175, 45, 45);
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px 0;
+    color: #323030;
+  }
+  
+  .homepage-section {
+    margin: 10px 0;
+  }
+  
+  .homepage-link {
+    color: #4e9efd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .homepage-link:hover {
+    text-decoration: underline;
+  }
+  
+  .no-details-message {
+    text-align: center;
+    font-size: 18px;
+    color: #ff6b6b;
+    margin-top: 20px;
+  }
+  
+  .add-review-link {
+    display: inline-block;
+    margin: 10px;
+    font-size: 12px;
+    padding: 8px 15px;
+    background-color: rgb(175, 45, 45);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-review-link:hover {
+    background-color: rgb(107, 21, 21);
+    color: #f6f3f0;
+  }
+
+.review-list-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.title-review {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.error {
+  color: #d9534f;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.main-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: start;
+}
+
+.list-item:hover {
+  transform: scale(1.02);
+}
+
+.list-item p {
+  margin: 5px 0;
+}
+
+.list-item p strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.list-item p:nth-child(2) {
+  font-size: 1rem;
+  color: #666;
+}
+
+.list-item p:first-child {
+  font-size: 1.1rem;
+  color: rgb(175, 45, 45);
+}
+
+.average-rating {
+  margin-bottom: 20px;
+}
+
+.average-rating h3 {
+  font-size: 1rem;
+  color: rgb(175, 45, 45);
+  font-weight: bold;
+}
+  
