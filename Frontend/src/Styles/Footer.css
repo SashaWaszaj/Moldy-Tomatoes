@@ -60,3 +60,10 @@
     font-size: 12px;
     padding-top: 10px;
   }
+  .fa-icon-link{
+    color:#333;
+    font-size: large;
+  }
+  .fa-icon-link:hover{
+    color:rgb(175, 45, 45);
+  }

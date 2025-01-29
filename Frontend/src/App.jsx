@@ -12,6 +12,7 @@ import Login from './components/Login';
 import SignUp from './components/Signup';
 import SearchResults from './components/SearchResults';
 import About from './components/About';
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   
