@@ -1,7 +1,6 @@
 import './App.css';
 import {Routes, Route, BrowserRouter, Link} from "react-router-dom";
 import MovieForm from './components/MovieForm';
-import {useState} from "react";
 import MovieList from "./components/MovieList";
 import ReviewForm from './components/ReviewForm';
 import NavBar from './components/NavBar';
