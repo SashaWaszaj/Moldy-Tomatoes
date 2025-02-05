@@ -1,3 +1,4 @@
+//TC-MT-103 Movie Search: Verify that the search functionality returns relevant results
 describe('Search results', () => {
     beforeEach(() => {
       cy.visit('https://moldy-tomatoes.netlify.app/')
